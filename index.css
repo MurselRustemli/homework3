@@ -1,0 +1,46 @@
+
+.kart{
+    width: 300px;
+    height:  450px;
+    border: solid 1.5px black;
+    border-radius: 1%;
+    transition: 1s;   
+}
+.sekil2{
+    overflow: hidden;
+}
+.kart:hover img{
+    transform:scale(1.5)
+}
+img{
+width: 100%;
+height: auto;
+position: relative;
+transition: 0.4s;
+}
+.yazi{
+    margin-left: 3px;
+}
+.metn{
+    margin-left: 3px;
+}
+.duyme{
+    color: aliceblue;
+    background-color: rgb(110, 110, 110);
+    width: 100px;
+    height: 30px;
+    border-radius: 12%;
+    margin-left: 3px;
+}
+.sekil2 {cursor: pointer;}
+.haqda{
+    position: absolute;
+    top: 355px;
+    left: 27px; 
+}
+ .kart:hover{
+   box-shadow: 3px 6px rgb(173, 170, 170);  
+ }
+ .sekil2:hover img{
+    transform:scale(1.5)
+ }
